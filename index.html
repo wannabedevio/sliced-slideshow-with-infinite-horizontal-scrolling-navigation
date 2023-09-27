@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sliced Slideshow with Infinite Horizontal Scrolling Navigation - DEMO - wannabedev.io</title>
+		<meta name="description" content="A responsive slideshow that allows switching between a group of web contents with a slice transition effect, powered by jQuery, CSS3 and GSAP's TweenMax.js." />
+		<meta name="keywords" content="tweenmax, gsap, sliced slideshow, javascript, image, slider, carousel, slideshow" />
+		<meta name="author" content="Mirza Hodzic" />
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+  </head>
+  <body class="is-loading">
+    
+    <!-- loader START -->
+    <div class="loader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- loader END -->
+
+    <!-- header START -->
+    <header>
+      <div class="header-inner">
+        <div class="logo">
+          <a href="https://wannabedev.io"><span>scroll</span>studio</a>
+        </div>
+        <div class="header-headline">
+          <p>Confidence. If you have it, you can make anything look good.</p>
+        </div>
+        <nav class="navigation">
+          <li><a href="https://wannabedev.io"><span>Home</span></a></li>
+          <li><a href="https://www.wannabedev.io/tutorials/microsite-concept-with-rotating-background"><span>Back to Article</span></a></li>
+        </nav>
+      </div>
+    </header>
+    <!-- header END -->
+
+    <!-- slider START -->
+    <section class="wannabedev-slider">
+      
+      <!-- slider:container START -->
+      <div class="slides-container">
+      
+        <!-- slider:container:slide START -->
+        <article id="slide-01" class="slide is-active" data-bcg="assets/img/img-1.jpeg" data-color="#F6F7EB">
+          <div class="slide__background"></div>
+          <div class="slide__background_2"></div>
+        </article>
+        <!-- slider:container:slide END -->
+        
+        <!-- slider:container:slide START -->
+        <article id="slide-02" class="slide" data-bcg="assets/img/img-2.jpeg" data-color="#DCB239">
+          <div class="slide__background"></div>
+          <div class="slide__background_2"></div>
+        </article>
+        <!-- slider:container:slide END -->
+
+        <!-- slider:container:slide START -->
+        <article id="slide-03" class="slide" data-bcg="assets/img/img-3.jpeg" data-color="#FEDCD2">
+          <div class="slide__background"></div>
+          <div class="slide__background_2"></div>
+        </article>
+        <!-- slider:container:slide END -->
+
+        <!-- slider:container:slide START -->
+        <article id="slide-04" class="slide" data-bcg="assets/img/img-4.jpeg" data-color="#DF744A">
+          <div class="slide__background"></div>
+          <div class="slide__background_2"></div>
+        </article>
+        <!-- slider:container:slide END -->
+
+        <!-- slider:container:slide START -->
+        <article id="slide-05" class="slide" data-bcg="assets/img/img-5.jpeg" data-color="#8FD8D2">
+          <div class="slide__background"></div>
+          <div class="slide__background_2"></div>
+        </article>
+        <!-- slider:container:slide END -->
+
+      </div>
+      <!-- slider:container START -->
+      
+      <!-- slider:navigation START -->
+      <div class="slides-navigation">
+        <div class="wrapper">
+          <p>
+            <span><a class="main-nav__link is-active" href="#slide-01" data-id="0">ART DIRECTION</a></span>
+            <span><a class="main-nav__link" href="#slide-02" data-id="1">STRATEGY</a></span>
+            <span><a class="main-nav__link" href="#slide-03" data-id="2">BRAND IDENTITIES</a></span>
+            <span><a class="main-nav__link" href="#slide-04" data-id="3">PRINT DESIGN</a></span>
+            <span><a class="main-nav__link" href="#slide-05" data-id="4">UI/UX DESIGN</a></span>
+          </p>
+        </div>
+      </div>
+      <!-- slider:navigation END -->
+
+    </section>
+    <!-- slider-holder END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/gsapClassNames.js"></script>
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
