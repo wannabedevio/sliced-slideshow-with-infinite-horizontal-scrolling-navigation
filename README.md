@@ -10,7 +10,7 @@ A responsive slideshow that allows switching between a group of web contents wit
 
 ## Credits
 - The inspiration for effects and Layout comes from [Zhenya Rynzhuk](https://dribbble.com/shots/6129087-Chez-Studio-Homepage-Animation)
-- [TweenMax](https://greensock.com/tweenmax) by Greensock
+- [GSAP](https://greensock.com/) by Greensock
 - [imagesLoaded](https://imagesloaded.desandro.com/) by David DeSandro
 - [Images](https://unsplash.com/) by Unsplash.com
 - Font [News Cycle](https://fonts.google.com/specimen/News+Cycle) by Google Fonts
