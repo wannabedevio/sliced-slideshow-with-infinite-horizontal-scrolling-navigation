@@ -1,6 +1,6 @@
 # Sliced Slideshow with Infinite Horizontal Scrolling Navigation
 
-A responsive slideshow that allows switching between a group of web contents with a slice transition effect, powered by JavaScript, HTML5,CSS3 and Javascript Animation Library - GSAP. 
+A responsive slideshow that allows switching between a group of web contents with a slice transition effect, powered by JavaScript, HTML5, CSS3 and Javascript Animation Library - GSAP. 
 
 ![Sliced Slideshow with Infinite Horizontal Scrolling Navigation](/assets/img/sliced-slideshow-with-infinite-horizontal-scrolling-navigation.png)
 
